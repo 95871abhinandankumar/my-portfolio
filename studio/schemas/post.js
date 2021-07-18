@@ -18,6 +18,10 @@ export default {
       },
     },
     {
+            name:"link",
+            type:"url",
+    },
+    {
       name: 'author',
       title: 'Author',
       type: 'reference',
@@ -30,12 +34,6 @@ export default {
       options: {
         hotspot: true,
       },
-    },
-    {
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'category'}}],
     },
     {
       name: 'publishedAt',

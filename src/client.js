@@ -1,4 +1,4 @@
-import { SanityClient } from "@sanity/client";
+import SanityClient  from "@sanity/client";
 
 export default SanityClient({
     projectId: "lwk2l6c3",
