@@ -37,7 +37,7 @@ export default function About() {
                             <BlockContent blocks={author.bio} projectId="lwk2l6c3" dataset="production" />
                         </div>
                         <a href="https://drive.google.com/file/d/1Q7IuVNwk3A53UH_hIFR0OMNJgbl6EMbN/view?usp=sharing" target="_blank"
-                            className="text-blue-900 text-4xl hover:text-red-500  cursive">My Resume📑</a>
+                            className="text-blue-900 text-4xl hover:text-red-500  cursive" rel="noopener noreferrer">My Resume📑</a>
                         
                     </div>
                 </section>
