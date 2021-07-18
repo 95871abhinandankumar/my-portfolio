@@ -7,18 +7,17 @@ import Media from "react-media";
 
 export default function NavBar() {
 
-    var check = false;
     function menu_bar()
     {
             var list = document.getElementById("ullist");
 
-            if (list.style.display == "none"){
+            if (list.style.display === "none"){
                 list.style.display = "block";
                 var logo = document.getElementById("logo");
                 logo.style.fontSize="xx-large";
             }else{
                 list.style.display = "none";
-                var logo = document.getElementById("logo");
+                logo = document.getElementById("logo");
                 logo.style.fontSize='3.75rem';
                 logo.style.lineHeight='1';
             }
