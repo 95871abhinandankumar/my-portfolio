@@ -25,7 +25,7 @@ export default function NavBar() {
 
     return (
         <header className="bg-gray-300 flex overflow-x-hidden">
-                    <div className="pl-10 pr-10 pt-5 text-6xl text-green-900  text-bold cursive hover:text-white sm:text-2xl" id="logo">
+                    <div className="pl-10 pr-10 pt-5 text-6xl text-green-900  text-bold cursive hover:text-white sm:text-2xl md:text-4xl" id="logo">
                         <a href="/">Abhinandan</a>
                     </div>
                     <div style={{flex:1}}/>
